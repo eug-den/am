@@ -1,0 +1,8 @@
+<# для удаленного запуска скрипта получим нужные модули
+if ($psversionTable.psedition = "Desktop")
+{
+  $rs = New-PSSession -ComputerName srv-ad.gr.guord.local
+  import-module -PSSession $rs -Name ActiveDirectory
+  import-module -PSSession $rs -Name dhcpServer
+}
+#>

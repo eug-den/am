@@ -1,0 +1,1 @@
+@C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass -file .\am.ps1 %1 %2 %3 3>&1 2>&1 >> D:\system\am\am.log
