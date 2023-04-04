@@ -1,0 +1,1 @@
+netsh DHCP server \\srv-ad dump

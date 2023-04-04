@@ -1,0 +1,1 @@
+powershell -file sendmail.ps1 %1 %2 

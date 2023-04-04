@@ -1,0 +1,1 @@
+copy-item -path %SystemRoot%\System32\Winevt\Logs\Microsoft-Windows-TerminalServices-LocalSessionManager%4Operational.evtx
