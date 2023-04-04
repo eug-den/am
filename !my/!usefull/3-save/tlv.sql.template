@@ -1,7 +1,0 @@
-SELECT
- [Event Time],[Event Type],[Local Address],[Remote Address],[Remote Host Name],
- [Local Port],[Remote Port],[Process ID],[Process Name],[Process Path],[Process User]
-INTO tlv.csv
-FROM @SERVERS@
-where [Remote Address] not like '@NETWORK@'
-ORDER BY [Event Time] DESC
